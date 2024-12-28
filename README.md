@@ -6,7 +6,7 @@
     </p>
 </html>
 
-This is an implementation of the Pac-Man game for the **LandTiger**, an ARM-based LPC1768 board, developed as a project for the course of Computer Architectures at Politecnico di Torino. The game is written in C, and uses my custom library for the board peripherals, which you can find [here](https://github.com/fabcolonna/polito-cas-lpclib).
+This is an implementation of the Pac-Man game for the **LandTiger**, an ARM-based LPC1768 board, developed as a project for the course of Computer Architectures at Politecnico di Torino. The game is written in C, and uses my custom library for the board peripherals, which you can find [here](https://github.com/fabcolonna/polito-cas-landtiger-lib).
 
 ## Project Specifications
 
