@@ -1,8 +1,4 @@
-<<<<<<< HEAD
 # LandTiger Pac-Man
-=======
-# Pac-Man Game for the LPC1768
->>>>>>> aa0b1ee397985577c16399b16fb8922ba0d68a7e
 
 <html>
     <p align="center">
