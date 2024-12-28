@@ -1,4 +1,4 @@
-# Pac-Man for LandTiger LPC1768
+# Pac-Man for the LandTiger LPC1768 board
 
 <html>
     <p align="center">
