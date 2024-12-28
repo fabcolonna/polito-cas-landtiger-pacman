@@ -2,7 +2,7 @@
 
 <html>
     <p align="center">
-        <img src="docs/images/pacman.png" alt="Pac-Man Logo" width="300"/>
+        <img src="Docs/Images/pacman.png" alt="Pac-Man Logo" width="300"/>
     </p>
 </html>
 
@@ -10,7 +10,7 @@ This is an implementation of the Pac-Man game for the **LandTiger**, an ARM-base
 
 ## Project Specifications
 
-The PDFs of the project specifications and the final report can be found in the `docs/` folder. Further details will be gradually added to this file during development, alongside instructions for building and running the game.
+The PDFs of the project specifications and the final report can be found in the `Docs/` folder. Further details will be gradually added to this file during development, alongside instructions for building and running the game.
 
 ## License
 
