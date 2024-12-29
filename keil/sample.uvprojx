@@ -383,6 +383,26 @@
       </TargetOption>
       <Groups>
         <Group>
+          <GroupName>PacMan</GroupName>
+          <Files>
+            <File>
+              <FileName>main.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\Source\Program\main.c</FilePath>
+            </File>
+            <File>
+              <FileName>pacman.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\Source\Program\PacMan\pacman.c</FilePath>
+            </File>
+            <File>
+              <FileName>pacman.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\Source\Program\PacMan\pacman.h</FilePath>
+            </File>
+          </Files>
+        </Group>
+        <Group>
           <GroupName>CMSIS</GroupName>
           <Files>
             <File>
@@ -499,16 +519,6 @@
               <FileName>power_types.h</FileName>
               <FileType>5</FileType>
               <FilePath>.\Source\Libs\Power\power_types.h</FilePath>
-            </File>
-          </Files>
-        </Group>
-        <Group>
-          <GroupName>Program</GroupName>
-          <Files>
-            <File>
-              <FileName>main.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>.\Source\Program\main.c</FilePath>
             </File>
           </Files>
         </Group>
@@ -1025,7 +1035,7 @@
               <MiscControls></MiscControls>
               <Define>SIMULATOR</Define>
               <Undefine></Undefine>
-              <IncludePath>.\Source\Libs\Button;.\Source\CMSIS_core;.\Source;.\Source\Libs\RIT;.\Source\Libs\Timer;.\Source\Libs\LED;.\Source\Libs\Power;.\Source\Libs\Utils;.\Source\Program;.\Source\Startup;.\Source\Libs\SysTick;.\Source\Libs\Utils\DynamicArray;.\Source\Libs\Joystick;.\Source\Libs\ADC-PM;.\Source\Libs\DAC;.\Source\Libs\GLCD;.\Source\Program\Sprites;.\Source\Libs\TouchPanel</IncludePath>
+              <IncludePath>.\Source\Libs\Button;.\Source\CMSIS_core;.\Source;.\Source\Libs\RIT;.\Source\Libs\Timer;.\Source\Libs\LED;.\Source\Libs\Power;.\Source\Libs\Utils;.\Source\Program;.\Source\Startup;.\Source\Libs\SysTick;.\Source\Libs\Utils\DynamicArray;.\Source\Libs\Joystick;.\Source\Libs\ADC-PM;.\Source\Libs\DAC;.\Source\Libs\GLCD;.\Source\Program\Sprites;.\Source\Libs\TouchPanel;.\Source\Program\PacMan;.\Source\Program\PacMan\Assets</IncludePath>
             </VariousControls>
           </Cads>
           <Aads>
@@ -1066,6 +1076,26 @@
         </TargetArmAds>
       </TargetOption>
       <Groups>
+        <Group>
+          <GroupName>PacMan</GroupName>
+          <Files>
+            <File>
+              <FileName>main.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\Source\Program\main.c</FilePath>
+            </File>
+            <File>
+              <FileName>pacman.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\Source\Program\PacMan\pacman.c</FilePath>
+            </File>
+            <File>
+              <FileName>pacman.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\Source\Program\PacMan\pacman.h</FilePath>
+            </File>
+          </Files>
+        </Group>
         <Group>
           <GroupName>CMSIS</GroupName>
           <Files>
@@ -1183,16 +1213,6 @@
               <FileName>power_types.h</FileName>
               <FileType>5</FileType>
               <FilePath>.\Source\Libs\Power\power_types.h</FilePath>
-            </File>
-          </Files>
-        </Group>
-        <Group>
-          <GroupName>Program</GroupName>
-          <Files>
-            <File>
-              <FileName>main.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>.\Source\Program\main.c</FilePath>
             </File>
           </Files>
         </Group>
