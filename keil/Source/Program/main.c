@@ -1,15 +1,13 @@
-#include "includes.h"
-#include "pacman.h"
+#include "peripherals.h"
+#include "system.h"
 
 int main(void)
 {
     SystemInit();
-    LCD_Init();
 
-    // Initialize the PacMan game
-    PACMAN_Init();
+    // Add your application code here
 
     POWER_Init(POWR_CFG_SLEEP_ON_EXIT);
-    POWER_PowerDownOnWFI();
+    POWER_SleepOnWFI();
     POWER_WaitForInterrupts();
 }
