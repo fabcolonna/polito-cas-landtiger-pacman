@@ -413,6 +413,26 @@
           </Files>
         </Group>
         <Group>
+          <GroupName>PacMan</GroupName>
+          <Files>
+            <File>
+              <FileName>pacman.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\Source\Program\PacMan\pacman.c</FilePath>
+            </File>
+            <File>
+              <FileName>pacman.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\Source\Program\PacMan\pacman.h</FilePath>
+            </File>
+            <File>
+              <FileName>pacman_types.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\Source\Program\PacMan\pacman_types.h</FilePath>
+            </File>
+          </Files>
+        </Group>
+        <Group>
           <GroupName>::CMSIS</GroupName>
         </Group>
         <Group>
@@ -755,7 +775,7 @@
               <MiscControls></MiscControls>
               <Define>SIMULATOR</Define>
               <Undefine></Undefine>
-              <IncludePath>.\Source;.\Source\Program;.\Source\Program\Assets\Fonts;.\Source\Program\Assets\Images;.\Source\System;.\Libs\Peripherals\Include</IncludePath>
+              <IncludePath>.\Source;.\Source\Program;.\Source\Program\Assets\Fonts;.\Source\Program\Assets\Images;.\Source\System;.\Libs\Peripherals\Include;.\Source\Program\Pacman</IncludePath>
             </VariousControls>
           </Cads>
           <Aads>
@@ -823,6 +843,26 @@
               <FileName>main.c</FileName>
               <FileType>1</FileType>
               <FilePath>.\Source\Program\main.c</FilePath>
+            </File>
+          </Files>
+        </Group>
+        <Group>
+          <GroupName>PacMan</GroupName>
+          <Files>
+            <File>
+              <FileName>pacman.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\Source\Program\PacMan\pacman.c</FilePath>
+            </File>
+            <File>
+              <FileName>pacman.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\Source\Program\PacMan\pacman.h</FilePath>
+            </File>
+            <File>
+              <FileName>pacman_types.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\Source\Program\PacMan\pacman_types.h</FilePath>
             </File>
           </Files>
         </Group>

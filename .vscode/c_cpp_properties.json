@@ -7,7 +7,7 @@
                 "${workspaceFolder}/Keil/Libs/**/Include/**",
                 "${workspaceFolder}/Keil/Source/**",
                 "${workspaceFolder}/Keil/Source/System/**",
-                "${workspaceFolder}/Keil/Source/Program/**"
+                "${workspaceFolder}/Keil/Source/Program/**/**"
             ],
             "cStandard": "c11"
         }

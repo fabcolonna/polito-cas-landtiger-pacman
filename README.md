@@ -2,7 +2,7 @@
 
 <html>
     <p align="center">
-        <img src="Assets/pacman.png" alt="Pac-Man Logo" width="300"/>
+        <img src="Assets/Images/pacman.png" alt="Pac-Man Logo" width="300"/>
     </p>
 </html>
 
