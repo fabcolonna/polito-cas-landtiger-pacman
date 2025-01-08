@@ -16,8 +16,6 @@ _FORCE_INLINE u16 rgb888_to_rgb565(u32 rgb888)
     return (u16)((r >> 3) << 11 | (g >> 2) << 5 | (b >> 3));
 }
 
-#define BGR_TO_RGB565(bgr) (u16)(((bgr >> 11) & 0x1F) | ((bgr >> 5) & 0x3F) | (bgr & 0x1F))
-
 /// @brief Initializes TFT LCD Controller.
 /// @param orientation The orientation of the screen, from the LCD_Orientation enum
 void LCD_Init(LCD_Orientation orientation);
@@ -68,6 +66,13 @@ LCD_ObjID LCD_RQAddObject(const LCD_Obj *const obj);
 /// @brief Manually triggers an update of the screen. Useful when you want to
 ///        add multiple objects at once, and only update the screen at the end.
 void LCD_RQRender(void);
+
+/// @brief Renders the object immediately, without adding it to the render queue.
+///        Since we don't retain a reference to the object, we can't remove it later.
+/// @note To remove an object rendered you must call LCD_SetBackgroundColor(), effectively
+///       clearing the screen and redrawing only the objects stored in the render queue
+/// @param obj The object to render immediately
+void LCD_RQRenderImmediate(const LCD_Obj *const obj);
 
 /// @brief Removes an object from the render queue by its ID.
 /// @param id The ID of the object to remove
