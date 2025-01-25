@@ -20,10 +20,6 @@ Whenever a new version of the library is released, you can update the one in you
 
 More info on this can be found in the [README](https://github.com/fabcolonna/polito-cas-landtiger-lib/blob/main/README.md) of the library repo.
 
-## Project Specifications
-
-The PDFs containing the project specs can be found in the `Docs/` folder. Further details will be gradually added to this file during development, alongside instructions for building and running the game itself.
-
 ## License
 
 This project is licensed under the MIT License. For more information, please refer to the LICENSE file.

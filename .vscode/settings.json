@@ -1,0 +1,16 @@
+{
+    "files.associations": {
+        "*.s": "arm",
+        "glcd_config.h": "c",
+        "array": "cpp",
+        "peripherals.h": "c",
+        "pacman.h": "c",
+        "cl_prioqueue.h": "c",
+        "font-upheaval20.h": "c",
+        "adc_pm.h": "c",
+        "glcd.h": "c",
+        "glcd_processor.h": "c",
+        "glcd_types.h": "c",
+        "glcd_errors.h": "c"
+    }
+}

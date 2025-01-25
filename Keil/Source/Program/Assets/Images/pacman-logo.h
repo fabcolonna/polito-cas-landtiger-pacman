@@ -2,8 +2,9 @@
 #ifndef __PACMAN_LOGO_H
 #define __PACMAN_LOGO_H
 
-#include "utils.h"
 #include "glcd_types.h"
+#include "types.h"
+
 
 // clang-format off
 
@@ -4227,11 +4228,6 @@ const u32 Image_PACMAN_LogoData[] = {
 
 // clang-format on
 
-const LCD_Image Image_PACMAN_Logo = {
-    .pixels = Image_PACMAN_LogoData,
-    .width = 192,
-    .height = 49,
-    .has_alpha = true
-};
+const LCD_Image Image_PACMAN_Logo = {.pixels = Image_PACMAN_LogoData, .width = 192, .height = 49, .has_alpha = true};
 
 #endif

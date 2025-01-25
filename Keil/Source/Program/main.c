@@ -5,10 +5,9 @@
 int main(void)
 {
     SystemInit();
-    LCD_Init(LCD_ORIENT_VER);
-    TP_Init(false);
-    
+
     PACMAN_Init();
+    PACMAN_Play(PM_SPEED_NORMAL);
 
     POWER_Init(POWR_CFG_SLEEP_ON_EXIT);
     POWER_SleepOnWFI();
